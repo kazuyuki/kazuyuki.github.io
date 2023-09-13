@@ -1,1 +1,45 @@
-
+{
+  "background_color": "#ffffff",
+  "description": "Planner for Basketball",
+  "dir": "ltr",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
+  "name": "kazuyuki.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "kazuyuki.github",
+  "start_url": "https://kazuyuki.github.io",
+  "id": "https://kazuyuki.github.io",
+  "shortcuts": [
+    {
+      "name": "About",
+      "url": "/about.html"
+    }
+  ],  
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "theme_color": "#ffffff",
+  "categories": [
+    "sports"
+  ],
+  "screenshots" : [
+    {
+      "src": "/assets/screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
